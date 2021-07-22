@@ -21,6 +21,12 @@
 		332018A21906294700CBDE2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 332018841906294700CBDE2E /* UIKit.framework */; };
 		332018AA1906294700CBDE2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 332018A81906294700CBDE2E /* InfoPlist.strings */; };
 		332018AC1906294700CBDE2E /* Flappy_BirdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 332018AB1906294700CBDE2E /* Flappy_BirdTests.m */; };
+		332018B919062CDA00CBDE2E /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 332018B519062CDA00CBDE2E /* Background.png */; };
+		332018BA19062CDA00CBDE2E /* BirdDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 332018B619062CDA00CBDE2E /* BirdDown.png */; };
+		332018BB19062CDA00CBDE2E /* Tunnel.png in Resources */ = {isa = PBXBuildFile; fileRef = 332018B719062CDA00CBDE2E /* Tunnel.png */; };
+		332018BC19062CDA00CBDE2E /* BirdUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 332018B819062CDA00CBDE2E /* BirdUp.png */; };
+		332018BE19062F3400CBDE2E /* Lauchimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 332018BD19062F3400CBDE2E /* Lauchimage.png */; };
+		332018C11906369800CBDE2E /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 332018C01906369800CBDE2E /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,13 @@
 		332018A71906294700CBDE2E /* Flappy BirdTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Flappy BirdTests-Info.plist"; sourceTree = "<group>"; };
 		332018A91906294700CBDE2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		332018AB1906294700CBDE2E /* Flappy_BirdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Flappy_BirdTests.m; sourceTree = "<group>"; };
+		332018B519062CDA00CBDE2E /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		332018B619062CDA00CBDE2E /* BirdDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdDown.png; sourceTree = "<group>"; };
+		332018B719062CDA00CBDE2E /* Tunnel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tunnel.png; sourceTree = "<group>"; };
+		332018B819062CDA00CBDE2E /* BirdUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BirdUp.png; sourceTree = "<group>"; };
+		332018BD19062F3400CBDE2E /* Lauchimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lauchimage.png; sourceTree = "<group>"; };
+		332018BF1906369800CBDE2E /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = ../GameViewController.h; sourceTree = "<group>"; };
+		332018C01906369800CBDE2E /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = ../GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +130,8 @@
 				332018921906294700CBDE2E /* Main.storyboard */,
 				332018951906294700CBDE2E /* ViewController.h */,
 				332018961906294700CBDE2E /* ViewController.m */,
+				332018BF1906369800CBDE2E /* GameViewController.h */,
+				332018C01906369800CBDE2E /* GameViewController.m */,
 				332018981906294700CBDE2E /* Images.xcassets */,
 				332018871906294700CBDE2E /* Supporting Files */,
 			);
@@ -126,6 +141,11 @@
 		332018871906294700CBDE2E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				332018BD19062F3400CBDE2E /* Lauchimage.png */,
+				332018B519062CDA00CBDE2E /* Background.png */,
+				332018B619062CDA00CBDE2E /* BirdDown.png */,
+				332018B719062CDA00CBDE2E /* Tunnel.png */,
+				332018B819062CDA00CBDE2E /* BirdUp.png */,
 				332018881906294700CBDE2E /* Flappy Bird-Info.plist */,
 				332018891906294700CBDE2E /* InfoPlist.strings */,
 				3320188C1906294700CBDE2E /* main.m */,
@@ -196,7 +216,7 @@
 		332018751906294700CBDE2E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "James Wu";
 				TargetAttributes = {
 					3320189D1906294700CBDE2E = {
@@ -229,7 +249,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				332018991906294700CBDE2E /* Images.xcassets in Resources */,
+				332018B919062CDA00CBDE2E /* Background.png in Resources */,
+				332018BE19062F3400CBDE2E /* Lauchimage.png in Resources */,
+				332018BB19062CDA00CBDE2E /* Tunnel.png in Resources */,
+				332018BC19062CDA00CBDE2E /* BirdUp.png in Resources */,
 				3320188B1906294700CBDE2E /* InfoPlist.strings in Resources */,
+				332018BA19062CDA00CBDE2E /* BirdDown.png in Resources */,
 				332018941906294700CBDE2E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -249,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				332018C11906369800CBDE2E /* GameViewController.m in Sources */,
 				332018971906294700CBDE2E /* ViewController.m in Sources */,
 				332018911906294700CBDE2E /* AppDelegate.m in Sources */,
 				3320188D1906294700CBDE2E /* main.m in Sources */,
@@ -319,6 +345,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -379,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flappy Bird/Flappy Bird-Prefix.pch";
 				INFOPLIST_FILE = "Flappy Bird/Flappy Bird-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-WU.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -392,6 +420,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flappy Bird/Flappy Bird-Prefix.pch";
 				INFOPLIST_FILE = "Flappy Bird/Flappy Bird-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-WU.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -413,6 +442,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Flappy BirdTests/Flappy BirdTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-WU.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -431,6 +461,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Flappy Bird/Flappy Bird-Prefix.pch";
 				INFOPLIST_FILE = "Flappy BirdTests/Flappy BirdTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "James-WU.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -456,6 +487,7 @@
 				332018B11906294700CBDE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		332018B21906294700CBDE2E /* Build configuration list for PBXNativeTarget "Flappy BirdTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +496,7 @@
 				332018B41906294700CBDE2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
